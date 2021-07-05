@@ -1,5 +1,9 @@
 # ros-slam-gazebo
 the steps to install the tools needed for simulating, mapping, and controlling a turtlebot robot.
+
+**1.Make sure you already have a running VM with ubuntu 18.04 OS, and already installed ROS Melodic inside it.**
+**2.type in the commands down below in the terminal**
+
 ||_Install ROS 1 on Remote PC 3. 1. 2._
  ```
 $ sudo apt-get update
@@ -13,7 +17,7 @@ $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/instal
 $ chmod 755 ./install_ros_melodic.sh 
 $ bash ./install_ros_melodic.sh
  ```
- ||_Install Dependent ROS 1 Packages 3. 1. 3._
+||_Install Dependent ROS 1 Packages 3. 1. 3._
 ```
  $ sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy \
   ros-kinetic-teleop-twist-keyboard ros-kinetic-laser-proc \
