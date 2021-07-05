@@ -72,6 +72,7 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+![image](https://user-images.githubusercontent.com/46539212/124407157-e0478000-dd4b-11eb-9850-54890e2c2a53.png)
 ```
 **to run the SLAM Node and see the generated map by the Robot.**
 **8. Run this command to be able to interact and control the robot**
